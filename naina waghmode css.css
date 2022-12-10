@@ -50,7 +50,7 @@ header .part2 .icons i{
 	color: white;
 }
 .maindiv{
-	height: 640px;
+	height: 620px;
 	width: 100%;
 	
 	position: relative;
@@ -60,7 +60,7 @@ header .part2 .icons i{
 	height: 18px;
 	width: 40px;
 	position: absolute;
-	bottom: 15%;
+	bottom: 13%;
 	left: 5%;
 }
 .formcontent{
