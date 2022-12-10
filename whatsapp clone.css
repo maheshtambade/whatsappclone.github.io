@@ -1,0 +1,2240 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.horizontal{
+	width: 300%;
+	display: flex;
+
+
+}
+.horizontal .maindiv{
+	width: 100%;
+	height: 100%;
+}
+.horizontal .maindiv2{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	
+}
+.horizontal .maindiv3{
+	width: 100%;
+	height: 100%;
+	
+
+}
+img{
+	border-radius: 50%;
+}
+
+
+@media (max-width:300px){
+	.smallitem1{
+		width: 15%;
+	}
+    .smallitem1 .sdiv{
+    	height: 20px;
+    	width: 20px;
+    }
+    .smallitem1 .sdiv img{
+    	height: 20px;
+    	width: 20px;
+    	border-radius: 50%;
+    }
+}
+
+
+@media (max-width:480px){
+	header{
+		height: auto;
+		width: 100%;
+		background:rgb(0,128,105);
+		padding-top: 10px;
+		padding-bottom: 0px;
+		color: white;
+	}
+	header .part1{
+		padding: 5px 15px;
+		background:rgb(0,128,108);
+		height: 40px;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	header .part1 .left{
+		float: left;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+	header .part1 .right{
+		float: right;
+	}
+	header .part1 .right .searchbox{
+		float: left;
+		height: 30px;
+		width: 30px;
+		
+		text-align: center;
+		
+		
+	}
+
+	header .part1 .right .searchbox i{
+		font-size: 15px;
+		line-height: 30px;
+		
+
+	}
+	
+
+	header .part1 .right .dots{
+		float: left;
+		height: 30px;
+		width: 30px;
+		
+		text-align: center;
+		
+		
+	}
+	header .part1 .right .dots i{
+		font-size: 15px;
+		line-height: 30px;
+		
+		
+	}
+	
+
+	header .part2{
+		width: 100%;
+		height: 25px;
+		display: flex;
+		
+	}
+	header .part2 .div1{
+		width: 33%;
+	background:rgb(0,128,108);
+		text-align: center;
+		letter-spacing: 1px;
+		cursor: pointer;
+		font-weight: bold;
+	}
+	header .part2 .div1:hover{
+		background: white;
+		color: black;
+	}
+	header .part2 .div2{
+		width: 33%;
+	background:rgb(0,128,108);
+		text-align: center;
+		letter-spacing: 1px;
+		cursor: pointer;
+		font-weight: bold;
+
+	}
+	header .part2 .div2:hover{
+		background: white;
+		color: black;
+	}
+	header .part2 .div3{
+		width: 34%;
+	background:rgb(0,128,108);
+		text-align: center;
+		letter-spacing: 1px;
+		cursor: pointer;
+		font-weight: bold;
+
+	}
+	header .part2 .div3:hover{
+		background: white;
+		color: black;
+	}
+
+	.maindiv{
+		height:auto;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+		position: relative;
+		
+	}
+	.maindiv .add{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+		
+		position: absolute;
+		bottom: 5px;
+		right: 10px;
+	}
+	.maindiv .add img{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+	}
+
+	.maindiv .item1{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	.maindiv .item2{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+
+	.maindiv .item3{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	.maindiv .item4{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	.maindiv .item5{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	.maindiv .item6{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	.maindiv .item7{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	.maindiv .item8{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin: 10px 0px;
+	}
+	
+
+
+	/* item1 */
+
+	.maindiv .item1 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item1 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item1 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item1 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item1 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item1 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item1 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item1 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item1 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* second item */
+	.maindiv .item2 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item2 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item2 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item2 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item2 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item2 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item2 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item2 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item2 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	/*...*/
+
+	.maindiv .item3 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item3 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item3 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item3 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item3 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item3 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item3 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item3 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item3 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/*....*/
+	.maindiv .item4 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item4 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item4 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item4 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item4 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item4 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item4 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item4 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item4 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ..... */
+	.maindiv .item5 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item5 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item5 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item5 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item5 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item5 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item5 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item5 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item5 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ...... */
+	.maindiv .item6 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item6 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item6 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item6 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item6 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item6 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item6 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item6 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item6 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	/* ....... */
+	.maindiv .item7 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item7 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item7 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item7 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item7 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item7 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item7 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item7 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item7 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ........ */
+
+	.maindiv .item8 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item8 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item8 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item8 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item8 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item8 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item8 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item8 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item8 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	.maindiv3{
+		height:auto;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+		background: white;
+
+		}
+		.maindiv3 .item1{
+			display: flex;
+			height: auto;
+			margin: 0px 0px;
+			margin: 15px 0px;
+		}
+
+     .maindiv3 .item1 .smallitem1{
+		height: 50px;
+		width: 25%;
+		padding-left: 10%;
+		margin-top: 0px;
+
+
+	 }
+	.maindiv3 .item1 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		
+		
+		
+
+	}
+	.maindiv3 .item1 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		margin-right: 0px;
+		
+
+	}
+	.maindiv3 .item1 .smallitem2{
+		height:50px;
+		width: 45%;
+		
+		padding-top: 0px;
+		padding-left: 5%;
+		margin-top: 0px;
+		
+	}
+	
+	.maindiv3 .item1 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv3 .item1 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 4px;
+		margin-bottom: 0px;
+	}
+	.maindiv3 .item1 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 4px;
+	}
+
+	.maindiv3 .item1 .smallitem3{
+		height:50px;
+		width: 30%;
+	text-align: center;
+		padding-top: 0px;
+		
+	}
+	
+
+	.maindiv3 .item1 .smallitem3 i{
+		font-size: 20px;
+		color: green;
+		line-height: 50px;
+	
+		
+	}
+
+
+	
+
+
+
+}
+@media (min-width:481px) and (max-width:768px){
+	header{
+		height: auto;
+		width: 100%;
+		background:rgb(0,128,105);
+		padding-top: 10px;
+		padding-bottom: 0px;
+		color: white;
+	}
+	header .part1{
+		padding: 5px 20px;
+		background:rgb(0,128,105);
+		height: 40px;
+		text-align: center;
+	}
+	header .part1 .left{
+		float: left;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+	header .part1 .right{
+		float: right;
+		margin-top: 5px;
+	}
+	header .part1 .right .searchbox{
+		float: left;
+		height: 35px;
+		width: 45px;
+		
+	}
+	header .part1 .right .dots{
+		float: left;
+		height: 35px;
+		width: 45px;
+		
+	}
+	header .part2{
+		width: 100%;
+		height: 25px;
+		display: flex;
+		margin-bottom: 0px;
+		margin-top: 5px;
+		
+	}
+	header .part2 .div1{
+		width: 33%;
+	background:rgb(0,128,105);
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	header .part2 .div1:hover{
+		background: white;
+		color: black;
+	}
+	header .part2 .div2{
+		width: 33%;
+	background:rgb(0,128,105);
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: bold;
+			cursor: pointer;
+
+	}
+	header .part2 .div2:hover{
+		background: white;
+		color: black;
+	}
+	header .part2 .div3{
+		width: 34%;
+        background:rgb(0,128,105);
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: bold;
+			cursor: pointer;
+
+	}
+	header .part2 .div3:hover{
+		background: white;
+		color: black;
+	}
+
+	.maindiv{
+		height:auto;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+		position: relative;
+		
+	}
+	.maindiv .add{
+		height: 55px;
+		width: 55px;
+		border-radius: 50px;
+		
+		position: absolute;
+		bottom: 1%;
+		right: 9%;
+	}
+	.maindiv .add img{
+		height: 55px;
+		width: 55px;
+		border-radius: 50px;
+	}
+	.maindiv .item1{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin:10px 0px;
+	}
+	.maindiv .item2{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+
+	.maindiv .item3{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	.maindiv .item4{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	.maindiv .item5{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	.maindiv .item6{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	.maindiv .item7{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	.maindiv .item8{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	.maindiv .item9{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+			margin:10px 0px;
+	}
+	
+
+
+	/* item1 */
+
+	.maindiv .item1 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item1 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item1 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item1 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item1 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item1 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item1 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item1 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item1 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* second item */
+	.maindiv .item2 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item2 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item2 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item2 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item2 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item2 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item2 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item2 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item2 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	/*...*/
+
+	.maindiv .item3 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item3 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item3 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item3 .smallitem2{
+		height:50px;
+		width: 82%;
+				
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item3 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item3 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item3 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item3 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item3 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/*....*/
+	.maindiv .item4 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item4 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item4 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item4 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item4 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item4 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item4 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item4 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item4 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ..... */
+	.maindiv .item5 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item5 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item5 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item5 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item5 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item5 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item5 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item5 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item5 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ...... */
+	.maindiv .item6 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item6 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item6 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item6 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item6 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item6 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item6 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item6 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item6 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	/* ....... */
+	.maindiv .item7 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item7 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item7 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item7 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item7 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item7 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item7 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item7 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item7 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ........ */
+
+	.maindiv .item8 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item8 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item8 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item8 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item8 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item8 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item8 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item8 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item8 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+    .horizontal .maindiv3{
+	width: 100%;
+	height: 100%;
+      }
+
+	.maindiv3{
+		height:auto;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+		background: white;
+
+		}
+		.maindiv3 .item1{
+			display: flex;
+			height: auto;
+			margin: 15px 0px;
+		}
+
+     .maindiv3 .item1 .smallitem1{
+		height: 50px;
+		width: 30%;
+		padding-left: 10%;
+		margin-top: 0px;
+		
+
+
+	 }
+	.maindiv3 .item1 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+		margin: 0px auto;
+		margin-right: 0px;
+		
+
+	}
+	.maindiv3 .item1 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv3 .item1 .smallitem2{
+		height:50px;
+		width: 40%;
+		padding-left: 10%;
+		padding-top: 0px;
+		margin-top: 0px;
+		
+		
+	}
+	
+	.maindiv3 .item1 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv3 .item1 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 4px;
+		margin-bottom: 0px;
+	}
+	.maindiv3 .item1 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 4px;
+	}
+
+	.maindiv3 .item1 .smallitem3{
+		height:50px;
+		width: 30%;
+	
+		padding-top: 0px;
+		
+	}
+	.maindiv3 .item1 .smallitem3 i{
+		font-size: 30px;
+		color: green;
+		line-height: 50px;
+	}
+
+	
+
+
+
+}
+
+@media (min-width:769px){
+	body{
+		background:white;
+
+	}
+	.fullbody{
+		width: 60%;
+		margin:auto;
+		overflow: hidden;
+	}
+	header{
+		height: auto;
+		width: 100%;
+		background: rgb(0,128,108);
+		padding-top: 10px;
+		padding-bottom: 0px;
+		color: white;
+	}
+	header .part1{
+		padding: 5px 10px;
+		background: rgb(0,128,108);
+		height: 40px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	header .part1 .left{
+		float: left;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		margin-left: 5%;
+	}
+	header .part1 .right{
+		float: right;
+	}
+	header .part1 .right .searchbox{
+		float: left;
+		height: 35px;
+		width: 45px;
+		margin-top: 5px;
+		
+	}
+	header .part1 .right .dots{
+		float: left;
+		height: 35px;
+		width: 45px;
+		margin-top: 5px;
+		
+	}
+	header .part2{
+		width: 100%;
+		height: 25px;
+		display: flex;
+		
+	}
+	header .part2 .div1{
+		width: 33%;
+	background: rgb(0,128,108);
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: bold;
+		
+	}
+	header .part2 .div1:hover{
+		background: white;
+		color: black;
+	}
+	header .part2 .div2{
+		width: 33%;
+	background: rgb(0,128,108);
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: bold;
+		
+
+	}
+	header .part2 .div2:hover{
+		background: white;
+		color: black;
+	}
+	header .part2 .div3{
+		width: 34%;
+	background: rgb(0,128,108);
+		text-align: center;
+		letter-spacing: 1px;
+		font-weight: bold;
+
+
+	}
+	header .part2 .div3:hover{
+		background: white;
+		color: black;
+	}
+
+	.maindiv .add{
+		height: 55px;
+		width: 55px;
+		border-radius: 50px;
+	
+		position: absolute;
+		bottom: 1%;
+		right: 7%;
+	}
+	.maindiv .add img{
+		height: 55px;
+		width: 55px;
+		border-radius: 50px;
+
+	}
+
+	.maindiv{
+		height:auto;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+		position: relative;
+		
+	}
+	.maindiv .item1{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	.maindiv .item2{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+
+	.maindiv .item3{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	.maindiv .item4{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	.maindiv .item5{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	.maindiv .item6{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	.maindiv .item7{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	.maindiv .item8{
+		height: auto;
+		width: 100%;
+		display: flex;
+		padding-top: 8px;
+		margin-top: 8px;
+	}
+	
+	
+
+
+	/* item1 */
+
+	.maindiv .item1 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item1 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item1 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item1 .smallitem2{
+		height:50px;
+		width: 82%;
+	
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item1 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item1 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item1 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item1 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item1 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* second item */
+	.maindiv .item2 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item2 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item2 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item2 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item2 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item2 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item2 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item2 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item2 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	/*...*/
+
+	.maindiv .item3 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item3 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item3 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item3 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item3 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item3 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item3 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item3 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item3 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/*....*/
+	.maindiv .item4 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item4 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+	
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item4 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item4 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item4 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item4 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item4 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item4 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item4 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ..... */
+	.maindiv .item5 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item5 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item5 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item5 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item5 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item5 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item5 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item5 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item5 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ...... */
+	.maindiv .item6 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item6 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item6 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item6 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item6 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+	
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item6 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item6 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item6 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item6 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	/* ....... */
+	.maindiv .item7 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item7 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item7 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item7 .smallitem2{
+		height:50px;
+		width: 82%;
+	
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item7 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item7 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item7 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item7 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item7 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	/* ........ */
+
+	.maindiv .item8 .smallitem1{
+		height: 50px;
+		width: 18%;
+
+	}
+	.maindiv .item8 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		
+		border-radius: 50px;
+		margin: 0px auto;
+		
+
+	}
+	.maindiv .item8 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		
+
+	}
+	.maindiv .item8 .smallitem2{
+		height:50px;
+		width: 82%;
+		
+		padding-top: 0px;
+		display: flex;
+	}
+	.maindiv .item8 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv .item8 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 8px;
+		margin-bottom: 0px;
+	}
+	.maindiv .item8 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+	.maindiv .item8 .smallitem2 .box2{
+		height: 50px;
+		width: 20%;
+		
+		padding-top: 0px;
+			
+	}
+	.maindiv .item8 .smallitem2 .box2 p{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+	.horizontal .maindiv3{
+	width: 100%;
+	height: 100%;
+      }
+      
+	.maindiv3{
+		height:auto;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden;
+		background: white;
+
+		}
+		.maindiv3 .item1{
+			display: flex;
+			height: auto;
+			margin: 10px 0px;
+		}
+
+     .maindiv3 .item1 .smallitem1{
+		height: 50px;
+		width: 25%;
+			padding-left: 20%;
+		margin-top: 0px;
+
+
+	 }
+	.maindiv3 .item1 .smallitem1 .sdiv{
+		height: 50px;
+		width: 50px;
+		border-radius: 50px;
+		margin: 0px auto;
+
+		
+
+	}
+	.maindiv3 .item1 .smallitem1 .sdiv img{
+		height: 50px;
+		width: 50px;
+		margin-right:0px;
+		
+
+	}
+	.maindiv3 .item1 .smallitem2{
+		height:50px;
+		width: 45%;
+		padding-left: 5%;
+		padding-top: 0px;
+		margin-top: 0px;
+		
+		
+	}
+	
+	.maindiv3 .item1 .smallitem2 .box1{
+		height:50px;
+		width: 80%;
+		
+		margin-top: 0px;
+		padding: 0px;
+		
+	}
+	.maindiv3 .item1 .smallitem2 .box1 h4{
+		margin-top: 2px;
+		margin-left: 4px;
+		margin-bottom: 0px;
+	}
+	.maindiv3 .item1 .smallitem2 .box1 p{
+		margin-top: 5px;
+		margin-left: 4px;
+	}
+
+	.maindiv3 .item1 .smallitem3{
+		height:80px;
+		width: 30%;
+	
+		padding-top: 10px;
+		
+	}
+	.maindiv3 .item1 .smallitem3 i{
+		font-size: 30px;
+		color: green;
+	}
+
+
+
+}

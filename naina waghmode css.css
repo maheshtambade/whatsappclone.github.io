@@ -1,0 +1,137 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: lightgray;
+}
+
+header{
+	height:10%;
+	background:rgb(0,128,108);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header .part1 .image{
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	margin: 0px 6px;
+
+}
+header .part1 .image img{
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+}
+header .part1{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	
+	font-size:16px;
+	color: white;
+	width: 70%;
+}
+header .part2{
+	height: 50px;
+	
+	display: flex;
+	align-items: center;
+}
+header .part2 .icons{
+	height: 40px;
+	width: 40px;
+	
+	text-align: center;
+	line-height: 40px;
+}
+header .part2 .icons i{
+	font-size: 15px;
+	color: white;
+}
+.maindiv{
+	height: 500px;
+	width: 100%;
+	
+	position: relative;
+}
+.maindiv .message{
+	font-size: 15px;
+	height: 18px;
+	width: 40px;
+	position: absolute;
+	bottom: 15%;
+	left: 5%;
+}
+.formcontent{
+	width: 100%;
+	display: flex;
+	position: absolute;
+	bottom: 10px;
+	padding: 0px;
+   
+
+}
+.formcontent input[type=text]{
+	height: 40px;
+	width: 80%;
+	padding-left: 5px;
+	border-radius: 10px;
+	margin: 5px 2px;
+}
+
+.formcontent .button{
+	height: 45px;
+	width: 19%;
+	margin:3px 0px;
+
+}
+
+.formcontent .button img{
+	height: 45px;
+	width: 45px;
+	border-radius: 50px;
+}
+
+.fullbody{
+	max-width: 480px;
+	overflow: hidden;
+	background: white;
+}
+
+
+.formcontent .button{
+	height: 45px;
+	width: 15%;
+	margin:3px 0px;
+}
+
+
+
+@media(min-width:481px){
+	.fullbody{
+		width: 55%;
+		margin: auto;
+		height: 100%;
+	}
+	
+
+   
+	.formcontent input[type=text]{
+	height: 40px;
+	width: 100%;
+	padding-left: 5px;
+	border-radius: 10px;
+	margin: 5px 2px;
+	}
+
+  .formcontent .button{
+	height: 45px;
+	width: 12%;
+	margin:3px 0px;
+	
+	
+
+      }
+}
+  
