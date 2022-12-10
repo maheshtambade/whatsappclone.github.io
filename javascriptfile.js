@@ -1,7 +1,4 @@
-   function load(){
-   	alert("Click On 'Status' to watch status");
-   	alert("Click On 'Calls' to watch call histroy");
-   }
+   
 	function slide1(){
 		document.querySelector('.horizontal').style.transform="translateX(0%)";
 		document.querySelector('.horizontal').style.transition="1s";
