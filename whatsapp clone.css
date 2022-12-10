@@ -53,6 +53,11 @@ img{
 
 
 @media (max-width:480px){
+	.fullbody{
+	   overflow:hidden;
+		padding:0px;
+		margin:0px;
+	}
 	header{
 		height: auto;
 		width: 100%;
@@ -167,8 +172,8 @@ img{
 		
 	}
 	.maindiv .add{
-		height: 50px;
-		width: 50px;
+		height: 65px;
+		width: 65px;
 		border-radius: 50px;
 		
 		position: absolute;
@@ -176,8 +181,8 @@ img{
 		right: 10px;
 	}
 	.maindiv .add img{
-		height: 50px;
-		width: 50px;
+		height: 65px;
+		width: 65px;
 		border-radius: 50px;
 	}
 
