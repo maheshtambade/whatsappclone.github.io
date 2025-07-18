@@ -1,2 +1,2 @@
 # whatsappclone.github.io
-whatsapp clone using html css and javascript
+This is whatsapp clone built  using html css and javascript onlu
